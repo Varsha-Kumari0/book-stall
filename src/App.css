@@ -103,3 +103,8 @@ button:hover {
   text-decoration: none;
   color: white;
 }
+
+.sold {
+  background-color: red;
+  color: white;
+}
