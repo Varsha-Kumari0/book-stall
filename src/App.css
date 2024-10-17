@@ -6,13 +6,13 @@ body {
 
 .book-stall {
   text-align: center;
-  background-color: #5A3D3D;
+  background-color: #5a3d3d;
   color: white;
   padding: 20px;
 }
 
 header h2 {
-  background-color: #B28F4E;
+  background-color: #b28f4e;
   padding: 20px 10px;
   margin: 0;
 }
@@ -22,7 +22,7 @@ header h2 {
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  width: 200px; 
+  width: 200px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ header h2 {
 .book-card img {
   width: 150px;
   height: 200px;
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 8px;
 }
 
@@ -48,9 +48,8 @@ header h2 {
   margin-bottom: 20px;
 }
 
-
 button {
-  background-color: #B28F4E;
+  background-color: #b28f4e;
   color: white;
   border: none;
   padding: 10px;
@@ -59,7 +58,7 @@ button {
 }
 
 button:hover {
-  background-color: #8C6D38;
+  background-color: #8c6d38;
 }
 
 .book-stall header {
@@ -99,7 +98,8 @@ button:hover {
   font-weight: bold;
 }
 
-.btn, .link {
+.btn,
+.link {
   text-decoration: none;
   color: white;
 }
@@ -107,4 +107,18 @@ button:hover {
 .sold {
   background-color: red;
   color: white;
+}
+
+.list-status {
+  margin: 1rem 0;
+  padding: 5px;
+  padding: 4px 6px;
+  background-color: green;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.list-link {
+  color: white;
+  text-decoration: none;
 }
