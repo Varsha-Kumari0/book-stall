@@ -249,7 +249,7 @@ export const books = [
     stall_price: 129,
     pre_booking_price: 117,
     img: "assets/ikigai.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "Brida",
@@ -298,7 +298,7 @@ export const books = [
     stall_price: 119,
     pre_booking_price: 108,
     img: "assets/good_vibes_good_life.jpg",
-    isSold: false
+    isSold: true
   },
   {
     name: "Chronicle of a Death Foretold",
@@ -319,14 +319,14 @@ export const books = [
     stall_price: 79,
     pre_booking_price: 72,
     img: "assets/man_search.jpg",
-    isSold: false
+    isSold: true
   },
   {
     name: "The Alchemist",
     stall_price: 109,
     pre_booking_price: 99,
     img: "assets/alchemist.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "Secrets of the millionaire mind",
@@ -361,7 +361,7 @@ export const books = [
     stall_price: 79,
     pre_booking_price: 72,
     img: "assets/do_it_today.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "Look back in anger",
@@ -403,7 +403,7 @@ export const books = [
     stall_price: 199,
     pre_booking_price: 180,
     img: "assets/karma.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "Lucifer was innocent",
@@ -494,7 +494,7 @@ export const books = [
     stall_price: 129,
     pre_booking_price: 117,
     img: "assets/think_and_grow.jpg",
-    // isSold: false
+     isSold: true
   },
   // {
   //   name: "Pride and prejudice",
@@ -550,7 +550,7 @@ export const books = [
     stall_price: 200,
     pre_booking_price: 180,
     img: "assets/list.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "The murder of roger ackroyd",
@@ -599,7 +599,7 @@ export const books = [
     stall_price: 79,
     pre_booking_price: 72,
     img: "assets/richest.jpg",
-    isSold: false
+    isSold: true
   },
   {
     name: "Nights of rain and stars",
@@ -634,7 +634,7 @@ export const books = [
     stall_price: 333,
     pre_booking_price: 300,
     img: "assets/dying.jpg",
-    isSold: false
+    isSold: true
   },
   // {
   //   name: "Service of all dead",
