@@ -98,3 +98,8 @@ button:hover {
   margin: 10px 0;
   font-weight: bold;
 }
+
+.btn, .link {
+  text-decoration: none;
+  color: white;
+}

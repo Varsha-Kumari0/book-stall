@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import { books } from './data';
+import React from "react";
+import "./App.css";
+import { books } from "./data";
 
 const BookCard = ({ book }) => (
   <div className="book-card">
@@ -8,7 +8,15 @@ const BookCard = ({ book }) => (
     <h3 className="book-title">{book.name}</h3>
     <p>Stall price: {book.stall_price} INR</p>
     <p>Pre-booking price: {book.pre_booking_price} INR</p>
-    <button>Pre Booking</button>
+    <button className="btn">
+      <a
+        className="link"
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdWyf7xfROFyulkS_8npq-9gBGgzdJe3xeP8Rr71vYRdEwl4A/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link"
+      >
+        Pre Booking
+      </a>
+    </button>
   </div>
 );
 
