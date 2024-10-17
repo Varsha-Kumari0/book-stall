@@ -279,13 +279,13 @@ export const books = [
     img: "assets/four.jpg",
     isSold: false
   },
-  // {
-  //   name: "The lord of the rings",
-  //   stall_price: 149,
-  //   pre_booking_price: 135,
-  //   img: "assets/rings.jpg",
-  // isSold: false
-  // },
+   {
+     name: "The lord of the rings",
+    stall_price: 149,
+    pre_booking_price: 135,
+   img: "assets/The Lord of the rings.jpeg",
+  isSold: false
+  },
   // {
   //   name: "Gulliver travels",
   //   stall_price: 99,
