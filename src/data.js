@@ -53,7 +53,7 @@ export const books = [
     stall_price: 129,
     pre_booking_price: 117,
     img: "assets/elon_musk.jpg",
-    isSold: false
+    isSold: true
   },
   {
     name: "Ignited minds",
