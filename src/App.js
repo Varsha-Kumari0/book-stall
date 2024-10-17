@@ -1,54 +1,12 @@
 import React from 'react';
 import './App.css';
-
-const books = [
-  {
-    img: 'https://via.placeholder.com/150',
-    stallPrice: '500 INR',
-    preBookingPrice: '450 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '300 INR',
-    preBookingPrice: '270 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '600 INR',
-    preBookingPrice: '540 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '500 INR',
-    preBookingPrice: '450 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150',
-    stallPrice: '500 INR',
-    preBookingPrice: '450 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '300 INR',
-    preBookingPrice: '270 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '600 INR',
-    preBookingPrice: '540 INR'
-  },
-  {
-    img: 'https://via.placeholder.com/150', 
-    stallPrice: '500 INR',
-    preBookingPrice: '450 INR'
-  }
-];
+import { books } from './data';
 
 const BookCard = ({ book }) => (
   <div className="book-card">
-    <img src={book.img} alt={book.title} />
-    <p>Stall price: {book.stallPrice}</p>
-    <p>Pre-booking price: {book.preBookingPrice}</p>
+    <img src={book.img} alt={book.name} title='test'/>
+    <p>Stall price: {book.stall_price}</p>
+    <p>Pre-booking price: {book.pre_booking_price}</p>
     <button>Pre Booking</button>
   </div>
 );
