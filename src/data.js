@@ -283,7 +283,7 @@ export const books = [
      name: "The lord of the rings",
     stall_price: 149,
     pre_booking_price: 135,
-   img: "assets/The Lord of the rings.jpeg",
+   img: "assets/The_Lord_of_the_rings.jpeg",
   isSold: false
   },
   // {
