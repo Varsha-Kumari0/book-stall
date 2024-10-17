@@ -27,19 +27,36 @@ header h2 {
 }
 
 .book-card {
-  width: calc(33.33% - 40px); /* 3 cards per row with gap adjustment */
-  max-width: 300px; /* Prevents excessive growth */
-  padding: 10px;
-  border-radius: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
   text-align: center;
-  box-sizing: border-box;
+  width: 200px; 
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .book-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 8px;
 }
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-stall header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
 button {
   background-color: #B28F4E;
