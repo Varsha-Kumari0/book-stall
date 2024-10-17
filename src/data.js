@@ -650,12 +650,12 @@ export const books = [
   //   img: "https://drive.google.com/file/d/1rN-RXwvT59H2juOaclr9N3G3_FuPcGAJ/view?usp=drive_link",
   // isSold: false
   // },
-  // {
-  //   name: "The individual society - Pearson",
-  //   stall_price: 119,
-  //   pre_booking_price: 108,
-  //   img: "https://drive.google.com/file/d/1qRPAdNLULGf9G0nIuJTIWDKMoqYaTCoh/view?usp=drive_link",
-  // isSold: false
+   {
+     name: "The individual society - Pearson",
+     stall_price: 119,
+    pre_booking_price: 108,
+    img: "assets/individual_society.jpeg",
+   isSold: false
   // },
   // {
   //   name: "Reading Gandhi",
